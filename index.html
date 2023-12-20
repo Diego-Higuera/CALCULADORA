@@ -1,0 +1,29 @@
+<html>
+    <head>
+        <title>CALCULADORA SENCILLA</title>
+    </head>
+    <body>
+        <h1>CALCULADORA SENCILLA</h1>
+        <form Name="calculadora"> 
+            <table id="calculadora">
+                <input id="boton" type="text" name="txt" readonly onkeypress="return"><br>
+                <input id="boton" type=button value="1" OnClick="calculadora.txt.value += '1'">
+                <input id="boton" type=button value="2" OnClick="calculadora.txt.value += '2'">
+                <input id="boton" type=button value="3" OnClick="calculadora.txt.value += '3'">
+                <input id="boton" type=button value="+" OnClick="calculadora.txt.value += '+'"><br>
+                <input id="boton" type=button value="4" OnClick="calculadora.txt.value += '4'">
+                <input id="boton" type=button value="5" OnClick="calculadora.txt.value += '5'">
+                <input id="boton" type=button value="6" OnClick="calculadora.txt.value += '6'">
+                <input id="boton" type=button value="-" OnClick="calculadora.txt.value += '-'"><br>
+                <input id="boton" type=button value="7" OnClick="calculadora.txt.value += '7'">
+                <input id="boton" type=button value="8" OnClick="calculadora.txt.value += '8'">
+                <input id="boton" type=button value="9" OnClick="calculadora.txt.value += '9'">
+                <input id="boton" type=button value="x" OnClick="calculadora.txt.value += '*'"><br>
+                <input id="boton" type=button value="." OnClick="calculadora.txt.value += '.'">
+                <input id="boton" type=button value="0" OnClick="calculadora.txt.value += '0'">
+                <input id="boton" type=button value="C" OnClick="calculadora.txt.value = ''">
+                <input id="boton" type=button value="/" OnClick="calculadora.txt.value += '/'"><br>
+                <input id="boton" type=button value="RESULTADO" OnClick="calculadora.txt.value = eval(calculadora.txt.value)">
+                </form>
+                </body>
+                </html>
